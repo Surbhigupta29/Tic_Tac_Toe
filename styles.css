@@ -1,0 +1,25 @@
+.Game {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.square {
+  height: 50px;
+  width: 50px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.symbol {
+  height: 30px;
+  width: 30px;
+}
+
+/* .board {
+  height: 50px;
+  width:  150px;
+} */
